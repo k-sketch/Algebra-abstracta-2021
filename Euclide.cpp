@@ -15,4 +15,5 @@ int main() {
   cout << "Inserte un numero: "; cin >> x;
   cout << "Inserte un numero: "; cin >> y;
   Euclide(x,y);
+  return 0;
 }
