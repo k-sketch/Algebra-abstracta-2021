@@ -15,8 +15,8 @@ int Ext_Euclide(int a, int b, int* c, int* d){
 
 int main() {
   int x,y,z,f;
-  cout << "Inserte un numero: "; cin >> x;
-  cout << "Inserte un numero: "; cin >> y;
+  cout << "Inserte el primer numero: "; cin >> x;
+  cout << "Inserte el segundo numero: "; cin >> y;
   int e = Ext_Euclide(x,y,&z,&f);
   cout << "gcd(" << x << "," << y << ")," << z << "," << f << " = " << e;
 }
