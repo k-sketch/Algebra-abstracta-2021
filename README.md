@@ -5,3 +5,4 @@
 |------|----|
 |1|Euclidean|
 |2|Extended Euclidean|
+|3|Primitive Root|
