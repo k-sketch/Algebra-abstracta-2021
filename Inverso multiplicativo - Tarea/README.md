@@ -18,7 +18,7 @@ int Ext_Euclide(int a, int b, int* c, int* d){
 void Inverse(int a, int n){
   int c, d;
   int f = Ext_Euclide(a, n, &c, &d);
-  //Comprobamos que se diferente de 1 para afirmar que no tiene inverso multiplicativo
+  //Comprobamos que sea diferente de 1 para afirmar que no tiene inverso multiplicativo
   if(f != 1){
     cout << "No tiene inverso multiplicativo";
   }
